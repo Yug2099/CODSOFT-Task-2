@@ -1,0 +1,97 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: url('images/bg-desktop.svg');
+
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    font-family: "https://fonts.google.com/specimen/Poppins", Poppins;
+    left: 20px;
+    z-index: 2;
+}
+
+.content {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 58%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+    width: max-content;
+}
+
+.image {
+    flex-direction: column;
+}
+
+.text {
+    color: white;
+    flex-direction: column;
+    top: 9%;
+    left: 100%;
+    width: 400px;
+    margin-left: 40px;
+    position: fixed;
+}
+
+
+
+.text h1 {
+    font-weight: 400;
+}
+
+.text p {
+    font-weight: 100;
+    width: 440px;
+}
+
+.text button {
+    padding: 15px;
+    width: 150px;
+    border-radius: 27px;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5%;
+}
+
+.footer i {
+    position: absolute;
+    z-index: 3;
+    border-radius: 50%;
+    padding: 1px;
+    border: solid white 1px;
+    background-color: #674BAF;
+}
+
+button:hover {
+    background: hsl(300, 69%, 71%);
+    transition: .3s;
+}
+
+.social-icon-1 img{
+    border: solid 1px white;
+    border-radius: 50%;
+    /* overflow: visible; */
+}
